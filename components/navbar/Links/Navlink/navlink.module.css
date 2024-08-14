@@ -1,0 +1,35 @@
+.container{
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.active {
+    background-color: white;
+    color: rgba(7, 7, 67);;
+}
+
+@media  screen and (max-width:700px){
+    .container{
+        padding: 5px;
+    }
+    .active{
+        width: 10%;
+        padding:2px 3px;
+    }
+}
+
+
+@media (min-width: 101px) and (max-width: 400px) {
+   .container{
+       font-size: 10px;
+       padding: 5px;
+       width: -webkit-fill-required;
+       flex-direction: column;
+   }
+  
+  }
+  

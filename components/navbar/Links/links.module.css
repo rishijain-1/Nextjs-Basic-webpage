@@ -1,0 +1,21 @@
+.links{
+    display:flex;
+    align-items:center;
+    gap: 15px;
+}
+@media (min-width: 401px) and (max-width:700px){
+    .links{
+        width:-webkit-fill-required
+    }
+}
+
+
+@media (min-width: 101px) and (max-width: 400px) {
+    .links
+    {   
+        width: -webkit-fill-required;
+        gap: 3px;
+        flex-direction: column;
+    }
+   
+   }

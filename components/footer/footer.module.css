@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    width: -webkit-fill-required;
+    font-size: 12px;
+    height: 50px;
+    background-color: rgb(17, 17, 39);
+}
